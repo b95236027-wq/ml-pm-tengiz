@@ -8,10 +8,10 @@ Goal: detect early signs of abnormal behavior using sensor data.
 Binary ML classifier: **Normal vs Failure** using aggregated sensor statistics.
 Output: probability of failure + recommendation (inspect / stop / continue).
 
-## 3) Data
-- Source: **3W Dataset**
-- Preprocessing: convert time-series to tabular features using aggregation:
-  **mean / std / min / max** per sensor window.
+## Data
+- Reference dataset: 3W Dataset (public oil & gas dataset)
+- Due to size and licensing, repository contains a **synthetic sample**
+  with the same feature structure, used only for demo and reproducibility.
 
 ## 4) Model
 - Baseline MVP: **Random Forest**
