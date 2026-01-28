@@ -30,3 +30,8 @@ Run demo:
 ```bash
 pip install -r requirements.txt
 streamlit run app/streamlit_app.py
+## Notes for Jury
+- Repository contains **synthetic sample data** for demonstration only.
+- Full pipeline is designed for real 3W Dataset without code changes.
+- Focus of the project: **methodology, interpretability and deployability**,
+  not overfitting on demo data.
